@@ -146,6 +146,7 @@ header nav ul li a {
     font-family: 'Catamaran', sans-serif;
     font-size: 16px;
     color: #111;
+    text-transform: uppercase;
 }
 
 header .header-account {
@@ -153,6 +154,7 @@ header .header-account {
 }
 
 @media only screen and (min-width: 1000px) {
+    /* Brand Header  */
     header .header-brand {
         margin: 31px 0;
         text-align: left;
@@ -160,6 +162,29 @@ header .header-account {
         padding: 0 20px 0 40px;
         border-right: 3px solid #111;
         float: left;
+    }
+
+    /* Nav header */
+    header nav ul {
+        margin: 20px 0px 0px 20px;
+        float: left;
+    }
+    
+    header nav ul li a {
+        line-height: 60px;
+    }
+
+    header .header-account {
+        display: block;
+        font-family: 'Catamaran';
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        line-height: 60px;
+        border: 1px solid #111;
+        float: right;
+        margin: 40px;
+        padding-right: 0 20px;
     }
 }
 
