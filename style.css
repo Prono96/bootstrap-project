@@ -338,6 +338,11 @@ footer ul li a {
         display: block;
     }
 
+    footer ul {
+        padding: 40px;
+    }
+    
+
     footer ul li p {
         font-family: 'Catamaran';
         font-size: 20px;
