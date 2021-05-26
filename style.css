@@ -325,7 +325,7 @@ footer ul li a {
 .footer-sm {
     width: 30px;
     float: right;
-}
+} 
 
 .footer-sm img {
     width: 100%;
@@ -339,6 +339,7 @@ footer ul li a {
     }
 
     footer ul {
+
         padding: 40px;
     }
     
